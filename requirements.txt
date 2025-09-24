@@ -1,0 +1,26 @@
+torch==2.7.1
+transformers==4.53.2
+tokenizers==0.21.2
+numpy==1.24.3
+tqdm==4.67.1
+scikit-learn==1.6.1
+scipy==1.13.1
+tensorboard==2.19.0
+matplotlib==3.9.4
+seaborn==0.13.2
+huggingface-hub==0.33.4
+safetensors==0.5.3
+regex==2024.11.6
+packaging==25.0
+filelock==3.11.0
+accelerate==1.9.0
+datasets==4.0.0
+evaluate==0.4.5
+wandb==0.21.0
+pandas==2.3.1
+pyarrow==20.0.0
+dill==0.3.8
+multiprocess==0.70.16
+xxhash==3.5.0
+# Deepspeed wheels depend on your CUDA/PyTorch; keep unpinned & Linux-only here.
+deepspeed ; sys_platform != "win32"
